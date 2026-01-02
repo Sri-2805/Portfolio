@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Vatsa G | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2>Sri Vatsa G</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="section home">
+        <h1>Hello, I'm <span>Sri Vatsa G</span></h1>
+        <p>Full Stack Developer Intern at SaiKet Systems</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Full Stack Developer Intern at SaiKet Systems with
+            strong interest in web development. I am currently learning
+            HTML, CSS, JavaScript, React, Node.js, and databases to build
+            real-world applications.
+        </p>
+        <p><strong>Email:</strong> vsri4209@gmail.com</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section bg-light">
+        <h2>Projects</h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio website built using HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Responsive Web Page</h3>
+                <p>Mobile-friendly landing page using modern CSS techniques.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do App</h3>
+                <p>Simple task management app using JavaScript and React basics.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="successMsg"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sri Vatsa G | Intern at SaiKet Systems</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
